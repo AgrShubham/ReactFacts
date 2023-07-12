@@ -4,6 +4,7 @@ import React from "react"
 export default function Main(){
     return(
         <div className="main-container">
+            <img className="back-logo" src="src/assets/react-back.svg" alt="react logo" />
             <h1 className="main-head">Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
@@ -12,7 +13,6 @@ export default function Main(){
                 <li>Is maintained by Meta</li>
                 <li>Powers thousands of enterprise apps including mobile apps</li>
             </ul>
-            <img className="back-logo" src="src/assets/react-back.svg" alt="react logo" />
         </div>
     )
 }

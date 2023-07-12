@@ -3,6 +3,9 @@
 }
 
 body{
+    overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100%;
     margin: 0;
     font-family: 'Inter', sans-serif;
     background-color: #282D35;
@@ -39,10 +42,14 @@ nav{
     position: absolute;
     right: -145px;
     top: 30%;
+    z-index: -1;
     color: #61DAFB;
 }
 
 .main-container{
+    overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100%;
     color: ivory;
     margin: 0px;
     padding: 50px 30px;
