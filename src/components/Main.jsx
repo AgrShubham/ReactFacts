@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from "react"
+import logo from "../assets/react-back.svg"
 
 export default function Main(){
     return(
         <div className="main-container">
-            <img className="back-logo" src="src/assets/react-back.svg" alt="react logo" />
+            <img className="back-logo" src={logo} alt="react logo" />
             <h1 className="main-head">Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
